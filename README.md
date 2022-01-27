@@ -26,6 +26,7 @@ cmake -G "Visual Studio 14 2015" .
 
 How to build on Linux/Macos:
 
+~/gitlab/games/thiefcatcher/Core$ conan install . --build=missing -s compiler.libcxx=libstdc++11
 ```
 cmake .
 make
